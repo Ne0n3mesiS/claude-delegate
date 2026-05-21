@@ -1,0 +1,16 @@
+{
+  "name": "claude-delegate-marketplace",
+  "owner": {
+    "name": "Ne0n3mesiS"
+  },
+  "plugins": [
+    {
+      "name": "claude-delegate",
+      "description": "Délègue les tâches gourmandes en tokens à vos modèles locaux (Ollama, LM Studio…) avec cascade de repli cloud gratuite. Routing intelligent + suivi des économies réelles.",
+      "version": "0.3.0",
+      "source": "./",
+      "category": "utilities",
+      "keywords": ["ollama", "local-llm", "token-optimization", "delegation", "cost-saving"]
+    }
+  ]
+}

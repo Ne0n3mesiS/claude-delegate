@@ -1,0 +1,30 @@
+{
+  "_comment": "Cascade de repli cloud OPTIONNELLE. Copiez ce fichier vers ~/.claude/delegate/providers.json et renseignez vos propres clés (de préférence des tiers GRATUITS). Sans ce fichier, claude-delegate reste 100% local. L'ordre = ordre d'essai : le 1er qui répond gagne ; sur quota épuisé (429) ou saturation (503), on passe au suivant. Astuce : mettez 'env:NOM_VARIABLE' pour lire la clé depuis une variable d'environnement plutôt que l'écrire en clair.",
+
+  "providers": [
+    {
+      "name": "gemini-free",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "api_key": "env:GEMINI_API_KEY",
+      "model": "gemini-2.5-flash",
+      "price_per_mtok_in": 0,
+      "price_per_mtok_out": 0
+    },
+    {
+      "name": "groq-free",
+      "base_url": "https://api.groq.com/openai/v1",
+      "api_key": "env:GROQ_API_KEY",
+      "model": "llama-3.3-70b-versatile",
+      "price_per_mtok_in": 0,
+      "price_per_mtok_out": 0
+    },
+    {
+      "name": "openrouter-free",
+      "base_url": "https://openrouter.ai/api/v1",
+      "api_key": "env:OPENROUTER_API_KEY",
+      "model": "meta-llama/llama-3.3-70b-instruct:free",
+      "price_per_mtok_in": 0,
+      "price_per_mtok_out": 0
+    }
+  ]
+}

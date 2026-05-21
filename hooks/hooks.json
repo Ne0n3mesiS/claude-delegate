@@ -1,0 +1,10 @@
+{
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "matcher": "Bash",
+      "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/suggest_delegate.py\"",
+      "timeout": 5000
+    }
+  ]
+}

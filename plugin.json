@@ -1,0 +1,10 @@
+{
+  "name": "claude-delegate",
+  "version": "0.2.0",
+  "description": "Route heavy tasks to local Ollama models (Qwen2.5/DeepSeek-R1) to save Claude tokens",
+  "author": "edgarmac",
+  "license": "MIT",
+  "commands": "commands/",
+  "agents": "agents/",
+  "hooks": "hooks/hooks.json"
+}

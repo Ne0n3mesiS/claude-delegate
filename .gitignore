@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+# sécurité : ne jamais versionner de vraies clés ni config locale
+providers.json
+.env
+*.key

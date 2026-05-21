@@ -1,10 +1,11 @@
 {
   "name": "claude-delegate",
-  "version": "0.2.0",
-  "description": "Route heavy tasks to local Ollama models (Qwen2.5/DeepSeek-R1) to save Claude tokens",
-  "author": "edgarmac",
+  "version": "0.3.0",
+  "description": "Délègue les tâches gourmandes en tokens à vos modèles locaux (Ollama, LM Studio…) avec cascade de repli cloud gratuite. Routing intelligent + suivi des économies réelles.",
+  "author": {
+    "name": "Ne0n3mesiS"
+  },
+  "homepage": "https://github.com/Ne0n3mesiS/claude-delegate",
   "license": "MIT",
-  "commands": "commands/",
-  "agents": "agents/",
-  "hooks": "hooks/hooks.json"
+  "keywords": ["ollama", "local-llm", "token-optimization", "delegation", "cost-saving"]
 }
